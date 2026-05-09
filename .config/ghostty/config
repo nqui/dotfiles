@@ -1,0 +1,8 @@
+font-family = FiraCode Nerd Font
+font-size = 20
+theme = Gruvbox Dark Hard
+cursor-style = underline
+cursor-style-blink = true
+shell-integration-features = sudo, no-cursor
+keybind = cmd+backspace=text:\x15
+keybind = shift+enter=text:\x1b\r
