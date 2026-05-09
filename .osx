@@ -69,6 +69,11 @@ osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/S
 # Disable press-and-hold for keys in favor of key repeat
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
+# Set a fast keyboard repeat rate and a short initial delay.
+# (KeyRepeat takes effect after logout / app restart.)
+defaults write NSGlobalDomain InitialKeyRepeat -int 20
+defaults write NSGlobalDomain KeyRepeat -int 1
+
 # Disable auto-correct
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
