@@ -18,9 +18,6 @@ gpip(){
     PIP_REQUIRE_VIRTUALENV="0" python -m pip "$@"
 }
 
-# greenlight go project
-export GREENLIGHT_DB_DSN="postgres://greenlight:password123@localhost:5432/greenlight?sslmode=disable"
-
 # source stuff
 source $(brew --prefix)/share/zsh-history-substring-search/zsh-history-substring-search.zsh
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
