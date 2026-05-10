@@ -1,6 +1,5 @@
 [user]
   name = nq
-  email = nq@no.email
 [core]
   editor = vi
   excludesfile = ~/.gitignore
@@ -32,4 +31,4 @@
   dc = diff --cached
   l = log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit
 [pull]
-	rebase = true
+  rebase = true
