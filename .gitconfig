@@ -1,5 +1,6 @@
 [user]
-  name = nq
+	name = nqui
+	email = 16074620+nqui@users.noreply.github.com
 [core]
   editor = vi
   excludesfile = ~/.gitignore
